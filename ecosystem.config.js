@@ -5,10 +5,10 @@ module.exports = {
 
   deploy : {
     production : {
-      key: 'C:/key.pem',
+      key: '/mnt/c/uxn.pem',
       user : 'ubuntu',
       host : '52.78.20.218',
-      ref  : 'origin/main',
+      ref  : 'origin/master',
       repo : 'git@github.com:UXN-Ltd/agmsClient-Next.js.git',
       path : '/home/ubuntu/agmsClient-Next',
       'pre-deploy-local': '',
